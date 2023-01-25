@@ -1,0 +1,31 @@
+img{
+    height: 200px;
+}
+.container{
+    width: 800px;
+    color: rgb(59, 58, 58);
+    font-size: x-large;
+    background-color: lightgrey;
+    text-align: center;
+    border: 1px;
+    padding: 10px;
+}
+.top, .bottom{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}
+.middle{
+    margin: 20px;
+    background-color: rgb(253, 184, 196);
+    display:flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.top{
+    background-color: lightblue;
+}
+.bottom{
+    background-color: white;
+}
