@@ -1,0 +1,33 @@
+div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+}
+.navItem{
+    flex: 1;
+}
+.specialnavItem{
+    flex: 4;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+}
+.leftContent{
+    flex:1
+
+}
+.rightContent{
+    flex:3;
+    display: flex;
+    flex-direction: row;
+}
+.menuItem{
+    text-align: center;
+}
+.contentItem{
+    flex: 4;
+}
